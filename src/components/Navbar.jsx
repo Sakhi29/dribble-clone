@@ -7,7 +7,7 @@ function Navbar() {
       className="flex justify-between px-8 py-1"
       style={{ backgroundColor: "#f8f7f4" }}
     >
-      <div className="flex items-center w-[480px]">
+      <div className="flex items-center w-auto">
         <ul className="flex gap-8 justify-between ml-5 text-black font-customFont-medium text-[15px] font-medium">
           <li className="cursor-pointer">Find talent</li>
           <li className="cursor-pointer">Inspiration</li>
@@ -57,7 +57,7 @@ function Navbar() {
         <button className="border-none mx-3 text-[16px] hover:text-slate-700">
           Log in
         </button>
-        <button className="bg-black text-white px-6 h-12  rounded-3xl hover:bg-slate-700">
+        <button className="bg-black text-white px-6 h-12 rounded-3xl hover:bg-slate-700">
           Sign up
         </button>
       </div>

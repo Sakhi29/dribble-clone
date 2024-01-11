@@ -5,6 +5,20 @@ export default {
     extend: {
       fontFamily: {
         customFont: ["Helvetica", "Arial", "sans-serif"],
+        font2: ["Source Serif 4", "Georgia", "serif"],
+      },
+      animation: {
+        "pulse-reduce":
+          "pulse-reduce 32s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      keyframes: {
+        "pulse-reduce": {
+          "0%": { backgroundColor: "#ffda79", opacity: "1" },
+          "25%": { backgroundColor: "#ffabe7", opacity: "1" },
+          "50%": { backgroundColor: "#d2bcf3", opacity: "1" },
+          "75%": { backgroundColor: "#edf3d8", opacity: "1" },
+          "100%": { backgroundColor: "#ffda79", opacity: "1" },
+        },
       },
     },
   },
