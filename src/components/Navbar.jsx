@@ -54,10 +54,10 @@ function Navbar() {
           />
           <Search className="absolute ml-2" color="#6e6d7a" size={20} />
         </form>
-        <button className="border-none mx-3 text-[16px] hover:text-slate-700">
+        <button className="border-none mx-3 text-[15px] hover:text-slate-700">
           Log in
         </button>
-        <button className="bg-black text-white px-6 h-12 rounded-3xl hover:bg-slate-700">
+        <button className="bg-[#0d0c22] text-white px-6 h-12 rounded-3xl hover:bg-slate-700">
           Sign up
         </button>
       </div>

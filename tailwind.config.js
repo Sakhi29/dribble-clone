@@ -10,7 +10,7 @@ export default {
       animation: {
         "pulse-reduce":
           "pulse-reduce 32s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        marquee: "marquee 25s linear infinite",
+        marquee: "marquee 32s linear infinite",
       },
       keyframes: {
         "pulse-reduce": {
@@ -21,9 +21,12 @@ export default {
           "100%": { backgroundColor: "#ffda79", opacity: "1" },
         },
         marquee: {
-          "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-100%)" },
+          "0%": { transform: "translate3d(0, 0, 0)" },
+          "100%": { transform: "translate3d(calc(-50% - 16px), 0, 0)" },
         },
+      },
+      backgroundImage: {
+        "profile-card": "url('../src/assets/image.jpg')",
       },
     },
   },
