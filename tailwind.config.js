@@ -27,6 +27,16 @@ export default {
       },
       backgroundImage: {
         "profile-card": "url('../src/assets/image.jpg')",
+        "profile-card2": "url('../src/assets/image2.jpg')",
+        "profile-card3": "url('../src/assets/image3.jpg')",
+        "profile-card4": "url('../src/assets/image4.jpg')",
+        "profile-card5": "url('../src/assets/image5.jpg')",
+        "profile-card6": "url('../src/assets/image6.jpg')",
+        "profile-card7": "url('../src/assets/image7.jpg')",
+        "profile-card8": "url('../src/assets/image8.jpg')",
+        "profile-card9": "url('../src/assets/image9.jpg')",
+        "profile-card10": "url('../src/assets/image10.jpg')",
+
       },
     },
   },
