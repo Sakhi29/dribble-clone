@@ -33,14 +33,14 @@ function Main() {
         <div class="grid gap-[32px] overflow-hidden relative z-[2] mt-auto mb-auto mx-0 pt-[72px] pb-[72px] px-auto bg-transparent">
           <div className="animate-marquee">
             <div className="grid gap-[32px] grid-flow-col w-fit">
-              <div className=" bg-profile-card opacity-100 w-[273px] h-[340px] rounded-3xl shadow-xl">
+              <div className="flex items-end bg-profile-card opacity-100 w-[273px] h-[340px] rounded-3xl shadow-xl">
                 <div className="grid grid-flow-row gap-2 text-[30px] leading-3 z-[2] absolute opacity-100 pt-4 pb-4 px-5 ">
                   <div className="flex w-[100%] text-[100%] align-baseline text-white font-medium bg-transparent">
                     name
                   </div>
                 </div>
               </div>
-              <div className="bg-profile-card opacity-100 w-[273px] h-[340px] rounded-3xl shadow-xl">
+              <div className="flex items-end bg-profile-card opacity-100 w-[273px] h-[340px] rounded-3xl shadow-xl">
                 <div className="grid grid-flow-row items-end gap-2 text-[30px] leading-3 z-[2] absolute opacity-100 pt-4 pb-4 px-5 ">
                   <div className="flex w-[100%] text-[100%] align-baseline text-white font-semibold bg-transparent">
                     name
