@@ -4,24 +4,70 @@ import YellowFooter from "./YellowFooter";
 function HomeFeed() {
   return (
     <section className="">
-      <h2 className="my-[43px] mx-[0] text-6xl">Explore inspiring designs</h2>
-      <div className="grid gap-[32px] grid-cols-4 grid-rows-4 px-8">
-        <div className="flex items-end bg-profile-card opacity-100 w-80 h-64 rounded-3xl shadow-xl">
-          <div className="grid grid-flow-row items-center gap-2 leading-3 z-[2] absolute opacity-100 pt-4 pb-4 px-5">
-            <div className="flex align-baseline text-white font-semibold bg-transparent ">
-              John Doe
-            </div>
-            <div className="flex align-baseline text-white font-semibold bg-transparent ">
-              Designer
-            </div>
-            <ul className="grid grid-flow-col gap-2 mt-1 text-white">
-              <li className="flex items-center h-6 rounded-xl border-solid border border-[#ffffff33] px-3 pb-0.5">
-                UI
-              </li>
-              <li className="flex items-center h-6 rounded-xl border-solid border border-[#ffffff33] px-3 pb-0.5">
-                Brand
-              </li>
-            </ul>
+      <h2 className="my-[43px] mx-[0] text-5xl">Explore inspiring designs</h2>
+      <div className="grid grid-cols-4 px-[72px] gap-9">
+        <div className="py-10">
+          <div className="rounded overflow-hidden shadow-xl w-fit hover: bg-white">
+            <img
+              className="cursor-pointer text-black "
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
+          </div>
+        </div>
+        <div className="py-10 ">
+          <div className="rounded overflow-hidden shadow-xl w-fit">
+            <img
+              className="cursor-pointer text-black"
+              src="../src/assets/thumbail1.jpg"
+            />
           </div>
         </div>
       </div>
