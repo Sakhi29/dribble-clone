@@ -12,7 +12,6 @@ function Navbar() {
           <li className="cursor-pointer">Find talent</li>
           <li className="cursor-pointer">Inspiration</li>
           <li className="cursor-pointer">
-            {" "}
             Learn design
             <select
               className="bg-transparent"
@@ -45,8 +44,8 @@ function Navbar() {
           </g>
         </svg>
       </div>
-      <div className="flex items-center justify-evenly w-[28%] text-black font-customFont-medium text-[14px] font-medium">
-        <form className="flex relative items-center h-12">
+      <div className="flex items-center justify-evenly w-[34%] text-black font-customFont-medium text-[14px] font-medium">
+        <form className="flex relative items-center ">
           <input
             className="h-12 pr-6 pl-12 rounded-3xl font-customFont-light text-[14px] border-none"
             type="text"
