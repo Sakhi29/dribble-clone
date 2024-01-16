@@ -12,18 +12,99 @@ function Footer() {
         </div>
       </div> */}
 
-      <div className="overflow-x-hidden">
-        <div class="grid gap-[32px] overflow-hidden relative z-[2] mt-auto mb-auto mx-0 pt-[72px] pb-[72px] px-auto bg-transparent">
-          <div className="animate-marquee">
-            <div className="grid gap-[32px] grid-flow-col w-fit">
-              <div className="flex items-end bg-profile-card opacity-100 w-[200px] h-[150px] rounded shadow-xl">
-                <div className="grid grid-flow-row gap-2 text-[30px] leading-3 z-[2] absolute opacity-100 pt-4 pb-4 px-5 ">
-                  <div className="flex w-[100%] text-[100%] align-baseline text-white font-medium bg-transparent">
-                    name
-                  </div>
-                </div>
-              </div>
+      <div class="grid gap-[36px] overflow-hidden relative z-[2] mt-auto mb-auto mx-0 pt-14 px-auto bg-transparent">
+        <div className="animate-marquee">
+          <div className="grid gap-[32px] grid-flow-col w-fit">
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-3 -translate-y-3 opacity-50 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card1 bg-cover transform transition-all rounded-md"></div>
             </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card2 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card3 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card4 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card5 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card6 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card1 bg-cover transform transition-all rounded-md"></div>
+            </div>
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card2 bg-cover transform transition-all rounded-md"></div>
+            </div>
+
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#E3EBFD] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card3 bg-cover transform transition-all rounded-md"></div>
+            </div>
+
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#E3EBFD] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card4 bg-cover transform transition-all rounded-md"></div>
+            </div>
+
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDDDFB] transform transition-all absolute translate-x-3 -translate-y-3 opacity-50 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#E3EBFD] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card5 bg-cover transform transition-all rounded-md"></div>
+            </div>
+
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card6 bg-cover transform transition-all rounded-md"></div>
+            </div>
+
+            <div className="flex relative w-[200px] h-[150px] hover:scale-105">
+              <div className="w-[200px] h-[150px] bg-[#EDF3D8] transform transition-all absolute translate-x-3 -translate-y-3 opacity-75 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-[#DDFDE8] transform transition-all absolute translate-x-1.5 -translate-y-1.5 opacity-100 rounded-md"></div>
+              <div className="w-[200px] h-[150px] bg-fi-card3 bg-cover transform transition-all rounded-md"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid gap-[32px] overflow-hidden relative z-[2] mt-2 mb-auto mx-0 bg-transparent">
+        <div className="animate-marquee">
+          <div className="grid gap-[32px] grid-flow-col w-fit">
+            <div className="flex relative w-[200px]">Illustration</div>
+            <div className="flex relative w-[200px]">Art</div>
+            <div className="flex relative w-[200px]">Photography</div>
+            <div className="flex relative w-[200px]">Print Design</div>
+            <div className="flex relative w-[200px]">Animation</div>
+            <div className="flex relative w-[200px]">Mobile</div>
+            <div className="flex relative w-[200px]">Illustration</div>
+            <div className="flex relative w-[200px]">Art</div>
+            <div className="flex relative w-[200px]">Photography</div>
+            <div className="flex relative w-[200px]">Print Design</div>
+            <div className="flex relative w-[200px]">Animation</div>
+            <div className="flex relative w-[200px]">Mobile</div>
+            <div className="flex relative w-[200px]">Photogaphy</div>
           </div>
         </div>
       </div>
@@ -74,13 +155,13 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-row py-11 justify-between items-center">
-          <ul className="flex flex-nowrap justify-center items-center pl-5 text-[100%]  gap-y-1 gap-x-4 leading-5 align-baseline">
+          <ul className="flex flex-nowrap justify-center items-center pl-5 text-md gap-y-1 gap-x-4 leading-5 align-baseline">
             <li className=" text-gray-500">2024 Dribble</li>
             <li className=" text-gray-500">Terms</li>
             <li className=" text-gray-500">Privacy</li>
             <li className=" text-gray-500">Cookies</li>
           </ul>
-          <ul className="flex flex-nowrap justify-center items-center pl-5 text-[100%]  gap-y-1 gap-x-4 leading-5 align-baseline">
+          <ul className="flex flex-nowrap justify-center items-center pl-5 text-md gap-y-1 gap-x-4 leading-5 align-baseline">
             <li className=" text-gray-500">Jobs</li>
             <li className=" text-gray-500">Designers</li>
             <li className=" text-gray-500">Freelancer</li>

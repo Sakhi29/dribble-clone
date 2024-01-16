@@ -10,7 +10,7 @@ export default {
       animation: {
         "pulse-reduce":
           "pulse-reduce 32s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        marquee: "marquee 32s linear infinite",
+        marquee: "marquee 40s linear infinite",
       },
       keyframes: {
         "pulse-reduce": {
@@ -36,7 +36,13 @@ export default {
         "profile-card8": "url('../src/assets/image8.jpg')",
         "profile-card9": "url('../src/assets/image9.jpg')",
         "profile-card10": "url('../src/assets/image10.jpg')",
-
+        "fi-card1": "url('../src/assets/fi1.jpg')",
+        "fi-card2": "url('../src/assets/fi2.jpg')",
+        "fi-card3": "url('../src/assets/fi3.jpg')",
+        "fi-card4": "url('../src/assets/fi4.jpg')",
+        "fi-card5": "url('../src/assets/fi5.jpg')",
+        "fi-card6": "url('../src/assets/fi6.jpg')",
+      
       },
     },
   },
