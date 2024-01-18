@@ -1,8 +1,9 @@
-# React + Vite
+# Dribbble Landing Page clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Made using Tailwind Css and React Vite App
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/Sakhi29/dribble-clone/assets/106910881/ed0ebd15-8624-491d-a3c2-9fa137d21135
+
+I have implemented many customized styles in this project using customization properties of tailwind.
+The very first color changing button, the marquee animation and font styles are all custom.
